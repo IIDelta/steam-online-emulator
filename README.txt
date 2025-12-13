@@ -1,4 +1,4 @@
-![Retro Patcher Banner](./assets/banner.png)
+![Retro Patcher Banner](https://github.com/IIDelta/steam-online-emulator/blob/main/assets/banner.jpg)
 
 # Auto-Patcher v2.2
 

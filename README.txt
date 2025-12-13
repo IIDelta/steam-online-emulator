@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Retro Patcher Banner" width="100%">
-</p>
+![Retro Patcher Banner](assets/banner.png)
 
-<h1 align="center">Auto-Patcher v2.2</h1>
+# Auto-Patcher v2.2
 
 =========================================
 

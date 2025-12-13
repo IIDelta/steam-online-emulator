@@ -1,4 +1,4 @@
-![Retro Patcher Banner](assets/banner.png)
+![Retro Patcher Banner](./assets/banner.png)
 
 # Auto-Patcher v2.2
 

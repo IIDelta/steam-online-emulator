@@ -4,10 +4,21 @@ import glob
 import sys
 import re
 
-# --- CONFIGURATION ---
-TOOLS_DIR = os.path.join(os.getcwd(), "tools")
-EMU_X86 = os.path.join(os.getcwd(), "emu_x86", "steam_api.dll")
-EMU_X64 = os.path.join(os.getcwd(), "emu_x64", "steam_api64.dll")
+# --- CONFIGURATION FIX ---
+
+# Determine the correct base path for bundled resources.
+# If running as a bundled executable, sys._MEIPASS is the temporary path.
+# Otherwise (if running as a .py script), use os.path.dirname(__file__).
+if getattr(sys, 'frozen', False):
+    # Running as executable (use temp folder)
+    BASE_DIR = sys._MEIPASS
+else:
+    # Running as script (use script's folder)
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+TOOLS_DIR = os.path.join(BASE_DIR, "tools")
+EMU_X86 = os.path.join(BASE_DIR, "emu_x86", "steam_api.dll")
+EMU_X64 = os.path.join(BASE_DIR, "emu_x64", "steam_api64.dll")
 
 # Fallback interfaces (Standard Goldberg Default)
 DEFAULT_INTERFACES = """SteamClient017

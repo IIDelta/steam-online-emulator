@@ -1,0 +1,1 @@
+"C:\Users\jaust\AppData\Local\Programs\Python\Python313\Scripts\pyinstaller" --onefile --name "Deltas_Steam_Patcher" --add-data "emu_x86;emu_x86" --add-data "emu_x64;emu_x64" --add-data "tools;tools" setup_deltas_patcher.py

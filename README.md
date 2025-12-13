@@ -1,6 +1,6 @@
 ![Retro Patcher Banner](https://github.com/IIDelta/steam-online-emulator/blob/main/assets/banner.jpg)
 
-# Auto-Patcher v3.0
+# Delta's Auto-Patcher v3.0
 
 =========================================
 
@@ -17,8 +17,8 @@ Online: Search for the file corresponding specifically to your game version. **W
 INSTRUCTIONS:
 1. Locate your game folder (the one containing the .exe and steam_api.dll).
 2. **Run the Patcher:**
-    * **Executable (.exe):** Drag and Drop that ENTIRE FOLDER onto **'Goldberg_Auto_Patcher.exe'** (the new, robust tool).
-    * **Source Code (.py):** If you have Python installed, drag the game folder onto the **'setup_goldberg.py'** file, or run it from the command line: `python setup_goldberg.py "path\to\game\folder"`
+    * **Executable (.exe):** Drag and Drop that ENTIRE FOLDER onto **'Deltas_Patcher.exe'** (the new, robust tool).
+    * **Source Code (.py):** If you have Python installed, drag the game folder onto the **'Deltas_Patcher.py'** file, or run it from the command line: `python Deltas_Patcher.py "path\to\game\folder"`
 3. Follow the guided, interactive setup to enter the Steam AppID (e.g., 10680 for AvP).
 4. Done!
 

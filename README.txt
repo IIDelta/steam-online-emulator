@@ -1,5 +1,10 @@
-HOW TO USE THE GOLDBERG AUTO-PATCHER
-====================================
+<p align="center">
+  <img src="assets/banner.png" alt="Retro Patcher Banner" width="100%">
+</p>
+
+<h1 align="center">Auto-Patcher v2.2</h1>
+
+=========================================
 
 PRE-REQUISITES:
 Ensure the game folder contains the steam_api.dll (preferably, the original, uncracked). 
